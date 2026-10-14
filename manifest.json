@@ -1,0 +1,57 @@
+{
+  "name": "Anivio Manga Plugins",
+  "version": "1.0.0",
+  "description": "Manga reader providers for Anivio. Ported from Saikou.",
+  "scrapers": [
+    {
+      "id": "mangadex",
+      "name": "MangaDex",
+      "description": "MangaDex manga reader (English chapters via official API). Ported from Saikou.",
+      "version": "1.0.0",
+      "filename": "mangadex.js",
+      "logo": "https://mangadex.org/favicon.ico",
+      "manga": true,
+      "enabled": true
+    },
+    {
+      "id": "mangapill",
+      "name": "MangaPill",
+      "description": "MangaPill manga reader with fast chapter and page extraction. Ported from Saikou.",
+      "version": "1.0.0",
+      "filename": "mangapill.js",
+      "logo": "https://mangapill.com/favicon.ico",
+      "manga": true,
+      "enabled": true
+    },
+    {
+      "id": "mangaread",
+      "name": "MangaRead",
+      "description": "MangaRead manga reader (WordPress-Manga theme). Ported from Saikou.",
+      "version": "1.0.0",
+      "filename": "mangaread.js",
+      "logo": "https://mangaread.org/favicon.ico",
+      "manga": true,
+      "enabled": true
+    },
+    {
+      "id": "weebcentral",
+      "name": "WeebCentral",
+      "description": "WeebCentral manga reader with full chapter list API. Ported from Saikou.",
+      "version": "1.0.0",
+      "filename": "weebcentral.js",
+      "logo": "https://weebcentral.com/favicon.ico",
+      "manga": true,
+      "enabled": true
+    },
+    {
+      "id": "mangabuddy",
+      "name": "MangaBuddy",
+      "description": "MangaBuddy (MangaK) manga reader via JSON API. Ported from Saikou.",
+      "version": "1.0.0",
+      "filename": "mangabuddy.js",
+      "logo": "https://mangak.io/favicon.ico",
+      "manga": true,
+      "enabled": true
+    }
+  ]
+}
