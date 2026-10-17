@@ -16,6 +16,7 @@ All plugins run inside Anivio's **QuickJS** runtime (single-file, native
 | **MangaRead** | `mangaread.js` | `MangaRead.kt` | WP search → `page-content-listing` chapters → `reading-content` images |
 | **WeebCentral** | `weebcentral.js` | `WeebCentral.kt` | HX search POST → `full-chapter-list` → `/images` endpoint |
 | **MangaBuddy** | `mangabuddy.js` | `MangaK.kt` | `api.mangak.io` JSON search/chapters → `__NEXT_DATA__` images |
+| **MangaTaro** | `mangataro.js` | Custom | Direct REST API: `/auth/search` → token-hashed `/auth/manga-chapters` → `/auth/chapter-content` WebP images |
 
 ## Setup
 
